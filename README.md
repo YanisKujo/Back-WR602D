@@ -13,10 +13,10 @@ php bin/console doctrine:database:create
 php bin/console doctrine:migrations:migrate
 ```
 
-## 🚀 Lancer en développement
+## 🚀 Lancer container
 
 ```bash
-symfony server:start
+docker-compose up --build
 ```
 
 ## 🔐 Authentification
