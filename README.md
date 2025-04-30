@@ -21,8 +21,6 @@ docker-compose up --build
 
 ## 🔐 Authentification
 
-JWT via LexikJWTAuthenticationBundle
-
 - **Register** : `POST /api/users`
 - **Login** : `POST /api/login`
 
